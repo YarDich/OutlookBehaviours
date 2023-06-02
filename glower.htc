@@ -1,0 +1,16 @@
+<PUBLIC:COMPONENT>
+    <ATTACH EVENT="onmouseover" FOR="element" HANDLER="doGlow" />
+    <ATTACH EVENT="onmouseout" FOR="element" HANDLER="noGlow" />
+    <SCRIPT LANGUAGE="JavaScript">
+        <!--   
+            function doGlow()
+            { 
+                element.filters.glow.enabled = true  
+                element.filters.glow.color = 256 * 255 + 255    //Cyan
+            }
+            function noGlow()   { 
+                 element.filters.glow.enabled = false  
+            }   //
+        -->
+    </SCRIPT>
+</PUBLIC:COMPONENT>
